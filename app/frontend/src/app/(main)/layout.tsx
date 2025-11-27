@@ -1,4 +1,4 @@
-import { ParticlesBackground } from '@/components/ParticlesBackground';
+import { ParticlesBackground } from '@/src/app/(main)/_components/ParticlesBackground';
 
 export default function MainLayout({
   children,
