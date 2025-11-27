@@ -30,7 +30,7 @@ export default function Home() {
         {/* CTA Button */}
         <Button
           asChild
-          className="text-sm rounded-full font-bold text-white bg-black border-[1.5px] border-white drop-shadow-[0_0_8px_white] hover:bg-neutral-800"
+          className="text-sm rounded-full font-bold text-white bg-black glow-border hover:bg-neutral-800"
         >
           <Link href="/login">시작하기</Link>
         </Button>

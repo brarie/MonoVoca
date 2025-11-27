@@ -1,4 +1,3 @@
-import { Header } from '@/components/Header';
 import { ParticlesBackground } from '@/components/ParticlesBackground';
 
 export default function MainLayout({
@@ -7,9 +6,8 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="relative min-h-screen">
-      <Header />
-      <div className="relative z-10">{children}</div>
+    <div className="min-h-screen">
+      {children}
       <ParticlesBackground />
     </div>
   );

@@ -56,3 +56,6 @@ pnpm-lock.yaml
 
 # Misc
 *.pem
+
+# 로컬에서만 관리하는 폴더들
+.images/
