@@ -45,7 +45,10 @@ export function DashboardHeader() {
       <nav className="px-6 border-b border-white/20">
         <div className="flex items-center gap-8 overflow-x-auto scrollbar-hide">
           {menuItems.map((item) => {
-            const isActive = pathname === item.href;
+            const isActive =
+              item.href === '/dashboard'
+                ? pathname === '/dashboard'
+                : pathname.startsWith(item.href);
             const Icon = item.icon;
             return (
               <Link
